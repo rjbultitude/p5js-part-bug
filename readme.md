@@ -1,7 +1,7 @@
 #P5 JS Part Bug
 
 ##Introduction 
-Whislt working on a project using [P5](https://p5js.org/) and [P5 Sound](https://p5js.org/reference/#/libraries/p5.sound) I encountered some problems when using Parts to playback sequences of notes. This repo is a stripped back version of that application so that contributors to P5 can replicate the problem. 
+Whilst working on a project using [P5](https://p5js.org/) and [P5 Sound](https://p5js.org/reference/#/libraries/p5.sound) I encountered some problems when using Parts to playback sequences of notes. This repo is a stripped back version of that application so that contributors to P5 can replicate the problem. 
 
 ##Detail
 The app uses a Common JS pattern and [Browserify](http://browserify.org/) to manage various modules. [Postal](https://github.com/postaljs) is used to communicate between modules using the PubSub pattern. 
